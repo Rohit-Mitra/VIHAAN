@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, useLocation, Switch } from 'react-router-dom';
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 import Home from './Screens/Home/Home';
 import AboutUs from './Screens/AboutUs';
 import Tracks from './Screens/Tracks';
@@ -14,8 +14,8 @@ import Team from './Screens/Meet_the_team/Team';
 import ContactUs from './Screens/ContactUs';
 import { makeStyles} from '@material-ui/core';
 import MouseParticles from "react-mouse-particles";
-import Loading from './Screens/Loading/Loading'
-import NotFound from './Screens/NotFound'
+import Loading from './Screens/Loading/Loading';
+import NotFound from './Screens/NotFound';
 const useStyles= makeStyles({
   root: {
     height: '100%',
